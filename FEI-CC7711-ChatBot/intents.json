@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Ola","Opa","Oi", "tudo bem", "E aí?", "Boa tarde!", "Hey, como vai?"],
+      "responses": ["Oi","Olá", "Olá!", "Oi! Tudo bem?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["valeu","tchau","Obrigado","tks", "Até mais!", "Fui!", "Adeus, pessoal!"],
+      "responses": ["Até breve","Falou", "Até breve!", "Tchau!"]
+    },
+    {
+      "tag": "data_prova",
+      "patterns": ["Quando sera a prova?","A prova será em que dia?", "Qual é o dia da avaliação?", "A prova está marcada para quando?"],
+      "responses": ["no dia 26", "A prova está marcada para o dia 26."]
+    },
+    {
+      "tag": "pesquisa",
+      "patterns": ["Como faz um TCC?", "Como funciona o PIPE", "Por onde faço meu PIPE", "Quais são as fontes para um trabalho científico?", "O que é necessário para fazer um bom TCC?"],
+      "responses": ["Este link te ajudará: https://fapesp.br/pipe/", "Você pode encontrar informações úteis aqui: https://fapesp.br/pipe/"]
+    },
+    {
+      "tag": "pipe",
+      "patterns": ["Há diferentes etapas no programa?","Preciso ter empresa para solicitar o PIPE", "Como posso me inscrever no PIPE?", "Quais são os requisitos para participar do PIPE?"],
+      "responses": ["Este link te ajudará: https://fapesp.br/pipe/", "Aqui estão mais informações sobre o programa PIPE: https://fapesp.br/pipe/"]
+    },
+    {
+      "tag": "generico",
+      "patterns": ["quem é", "", "Qual é a resposta para a vida, o universo e tudo mais?", "O que há de novo?"],
+      "responses": ["Não sei responder esta pergunta", "Desculpe, não tenho essa informação.", "Não sei responder a essa pergunta."]
+    }
+  ]
+}
